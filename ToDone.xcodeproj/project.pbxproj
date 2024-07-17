@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		96DE6C722C4824BC003BBCA3 /* ToDoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C712C4824BC003BBCA3 /* ToDoneApp.swift */; };
-		96DE6C742C4824BC003BBCA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C732C4824BC003BBCA3 /* ContentView.swift */; };
+		96DE6C742C4824BC003BBCA3 /* ToDoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C732C4824BC003BBCA3 /* ToDoneList.swift */; };
 		96DE6C762C4824BD003BBCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DE6C752C4824BD003BBCA3 /* Assets.xcassets */; };
 		96DE6C792C4824BD003BBCA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DE6C782C4824BD003BBCA3 /* Preview Assets.xcassets */; };
 		96DE6C832C4824BD003BBCA3 /* ToDoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C822C4824BD003BBCA3 /* ToDoneTests.swift */; };
 		96DE6C8D2C4824BD003BBCA3 /* ToDoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C8C2C4824BD003BBCA3 /* ToDoneUITests.swift */; };
 		96DE6C8F2C4824BD003BBCA3 /* ToDoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C8E2C4824BD003BBCA3 /* ToDoneUITestsLaunchTests.swift */; };
+		96DE6C9D2C482501003BBCA3 /* ToDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C9C2C482501003BBCA3 /* ToDone.swift */; };
+		96DE6CA02C482A18003BBCA3 /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 96DE6C9F2C482A18003BBCA3 /* SwiftUINavigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		96DE6C6E2C4824BC003BBCA3 /* ToDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE6C712C4824BC003BBCA3 /* ToDoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoneApp.swift; sourceTree = "<group>"; };
-		96DE6C732C4824BC003BBCA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96DE6C732C4824BC003BBCA3 /* ToDoneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoneList.swift; sourceTree = "<group>"; };
 		96DE6C752C4824BD003BBCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DE6C782C4824BD003BBCA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96DE6C7E2C4824BD003BBCA3 /* ToDoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,7 @@
 		96DE6C882C4824BD003BBCA3 /* ToDoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE6C8C2C4824BD003BBCA3 /* ToDoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoneUITests.swift; sourceTree = "<group>"; };
 		96DE6C8E2C4824BD003BBCA3 /* ToDoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96DE6C9C2C482501003BBCA3 /* ToDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DE6CA02C482A18003BBCA3 /* SwiftUINavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +98,9 @@
 		96DE6C702C4824BC003BBCA3 /* ToDone */ = {
 			isa = PBXGroup;
 			children = (
+				96DE6C9B2C4824E7003BBCA3 /* Model */,
 				96DE6C712C4824BC003BBCA3 /* ToDoneApp.swift */,
-				96DE6C732C4824BC003BBCA3 /* ContentView.swift */,
+				96DE6C732C4824BC003BBCA3 /* ToDoneList.swift */,
 				96DE6C752C4824BD003BBCA3 /* Assets.xcassets */,
 				96DE6C772C4824BD003BBCA3 /* Preview Content */,
 			);
@@ -127,6 +132,14 @@
 			path = ToDoneUITests;
 			sourceTree = "<group>";
 		};
+		96DE6C9B2C4824E7003BBCA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96DE6C9C2C482501003BBCA3 /* ToDone.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +156,9 @@
 			dependencies = (
 			);
 			name = ToDone;
+			packageProductDependencies = (
+				96DE6C9F2C482A18003BBCA3 /* SwiftUINavigation */,
+			);
 			productName = ToDone;
 			productReference = 96DE6C6E2C4824BC003BBCA3 /* ToDone.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 96DE6C652C4824BC003BBCA3;
+			packageReferences = (
+				96DE6C9E2C482A18003BBCA3 /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+			);
 			productRefGroup = 96DE6C6F2C4824BC003BBCA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DE6C742C4824BC003BBCA3 /* ContentView.swift in Sources */,
+				96DE6C742C4824BC003BBCA3 /* ToDoneList.swift in Sources */,
 				96DE6C722C4824BC003BBCA3 /* ToDoneApp.swift in Sources */,
+				96DE6C9D2C482501003BBCA3 /* ToDone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +602,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96DE6C9E2C482A18003BBCA3 /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96DE6C9F2C482A18003BBCA3 /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96DE6C9E2C482A18003BBCA3 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 96DE6C662C4824BC003BBCA3 /* Project object */;
 }

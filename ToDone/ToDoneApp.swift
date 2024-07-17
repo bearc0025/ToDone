@@ -11,7 +11,7 @@ import SwiftUI
 struct ToDoneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToDoneList(model: ToDoneListModel(toDones: [ToDone.mock]))
         }
     }
 }
