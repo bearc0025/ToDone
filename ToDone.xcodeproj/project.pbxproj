@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9618305F2C4865FD00E87365 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9618305E2C4865FD00E87365 /* README.md */; };
 		96DE6C722C4824BC003BBCA3 /* ToDoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C712C4824BC003BBCA3 /* ToDoneApp.swift */; };
 		96DE6C742C4824BC003BBCA3 /* ToDoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE6C732C4824BC003BBCA3 /* ToDoneList.swift */; };
 		96DE6C762C4824BD003BBCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DE6C752C4824BD003BBCA3 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9618305E2C4865FD00E87365 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96DE6C6E2C4824BC003BBCA3 /* ToDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE6C712C4824BC003BBCA3 /* ToDoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoneApp.swift; sourceTree = "<group>"; };
 		96DE6C732C4824BC003BBCA3 /* ToDoneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoneList.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		96DE6C652C4824BC003BBCA3 = {
 			isa = PBXGroup;
 			children = (
+				9618305E2C4865FD00E87365 /* README.md */,
 				96DE6C702C4824BC003BBCA3 /* ToDone */,
 				96DE6C812C4824BD003BBCA3 /* ToDoneTests */,
 				96DE6C8B2C4824BD003BBCA3 /* ToDoneUITests */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9618305F2C4865FD00E87365 /* README.md in Resources */,
 				96DE6C792C4824BD003BBCA3 /* Preview Assets.xcassets in Resources */,
 				96DE6C762C4824BD003BBCA3 /* Assets.xcassets in Resources */,
 			);
